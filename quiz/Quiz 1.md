@@ -28,3 +28,6 @@
 10. Fortran, C  
   
 11. exponential curve will be a straight line after taking log on 1 axis, while on power law function we have to take log on both axis to get a straight line
+
+end of solution
+end
