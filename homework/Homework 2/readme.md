@@ -1,4 +1,10 @@
 # HOMEWORK 2 (SHASHANK KUMBHARE) #  
+<p align="center">
+```python
+a = 5  
+b = a  
+print (id(a), id(b))
+```</p>
 
 ### <p align="center">```Problem 1: ```</p>  
 	
