@@ -1,10 +1,10 @@
 # HOMEWORK 2 (SHASHANK KUMBHARE) #  
 
-```Problem 1:  ```
+### ```Problem 1: ```
 	
 click [here](./problem1.py) for problem 1 code.  
 	
-```Problem 2:  ```
+### ```Problem 2:```
 
 consider, a = 5  
 1. Objects are numbers/values. In this case '5' is an object.
@@ -64,12 +64,11 @@ Hence the output.
   	  
 B.  
 		
-Problem 3:  
-
-	asdjhksajd
-	asdsad
-	sadsad
-	asdsa
+### ```Problem 3:```  
+asdjhksajd
+asdsad
+sadsad
+asdsa
 		
 		
 		
