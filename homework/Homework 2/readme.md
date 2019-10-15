@@ -8,7 +8,7 @@ click [here](./problem1.py) for problem 1 code.
 
 
 consider, a = 5  
-1.	Objects are numbers/values. In this case '5' is an object.
+1.	Objects are numbers/values. In this case '5' is an object.  
 	Different objects have different location/address/id)
 2.	Variables are pointers to the id of the objects. In this case 'a' is a pointer and 'a' is pointing towards id of object '5'.  
 (Variables points towards the id of object).  
