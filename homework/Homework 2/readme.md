@@ -1,8 +1,8 @@
 # HOMEWORK 2 (SHASHANK KUMBHARE) #  
 
-Problem 1:
+Problem 1:  
 	
-	click [here](./problem1.py) for problem 1 code.  
+click [here](./problem1.py) for problem 1 code.  
 	
 Problem 2:  
 
@@ -17,11 +17,11 @@ Problem 2:
 	6. print(a) prints the object towards which the pointer 'a' is pointing.  
 	
 	A.  
-```python
-a = 5  
-b = a  
-print (id(a), id(b))
-```
+	```python
+	a = 5  
+	b = a  
+	print (id(a), id(b))
+	```
 		
 		Output:  
 		140714951152576 140714951152576   
