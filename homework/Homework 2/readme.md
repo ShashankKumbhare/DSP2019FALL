@@ -1,6 +1,6 @@
 # HOMEWORK 2 (SHASHANK KUMBHARE) #  
 
-### ```Problem 1: ```
+### <p align="center">```Problem 1: ```</p>
 	
 click [here](./problem1.py) for problem 1 code.  
 	
@@ -68,9 +68,6 @@ asdjhksajd
 asdsad
 sadsad
 asdsa
-
-
-<center>Centered text</center>
 
 <p align="center">Lorem ipsum</p>
 
