@@ -44,7 +44,7 @@ print (id(a),id(b),id(c))
 Explanation:  
 Both 'a' is pointing towards id of '5'. 'b' is a copycat of 'a'.  
 c = b : 'c' is a copycat of 'b', so 'c' will also point towards id of '5'.   
-b = 3 : This creates a new pointer 'b' which will point towards id of '3' and now this will not have any effect on 'a' or 'b'.  
+b = 3 : This creates a new pointer 'b' which will point towards id of '3' and now this will have no effect on 'a' or 'b'.  
 Hence the output.  
   
 ```python		  
