@@ -1,4 +1,4 @@
-# HOMEWORK 2 (SHASHANK KUMBHARE) #  
+## HOMEWORK 2 (SHASHANK KUMBHARE) #  
 
 ### <p align="center">```Problem 1: ```</p>  
 	
