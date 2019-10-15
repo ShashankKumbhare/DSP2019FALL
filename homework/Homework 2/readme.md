@@ -70,7 +70,7 @@ sadsad
 asdsa
 
 
-
+<center>Centered text</center>
 
 
 
