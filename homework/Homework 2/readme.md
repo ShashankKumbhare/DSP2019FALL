@@ -14,7 +14,7 @@ consider, a = 5
 3. id(a) gives the id towards which the pointer 'a' of the object '5' is pointing.    
 4. a = 5 : This creates a new pointer/variable with name 'a' which points towards the id of object '5'.  
 5. b = a : This creates a new pointer/variable with name 'b' and is a copycat of pointer 'a' and will point towards id of '5'.  
-6. print(a) prints the object towards which the pointer 'a' is pointing.  
+6. print(a): prints the object towards which the pointer 'a' is pointing.  
 	
 A.  
 ```python
