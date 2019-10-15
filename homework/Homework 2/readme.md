@@ -62,7 +62,10 @@ Explanation:
 b = a : 'b' is a copycat of 'a', so 'b' is pointing towards '5'.  
 b = 5 : 'b' is pointing towards '5'.  
 Hence the output.  
-  	  
+  
+  
+  
+  
 B.  
 		
 ### ```Problem 3:```  
