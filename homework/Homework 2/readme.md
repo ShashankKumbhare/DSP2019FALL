@@ -28,8 +28,7 @@ Output:
 ```		
 Explanation:  
 'a' points towards id of '5'. 'b' is a copycat of 'a'. Hence, both id(a) and id(b) are giving the same address, since 'a' and 'b' are pointing towards the same object '5'.  	  
-  
-  
+   
 ```python		  
 c = b  
 b = 3  
@@ -41,7 +40,6 @@ Output:
 5 3 5  
 140714951152576 140714951152512 140714951152576  
 ```	
-  
 Explanation:  
 'a' is pointing towards id of '5'.  
 c = b : 'c' is a copycat of 'b', so 'c' will point towards id of '5'.   
@@ -63,22 +61,20 @@ b = a : 'b' is a copycat of 'a', so 'b' is pointing towards '5'.
 b = 5 : 'b' is pointing towards '5'.  
 Hence the output.  
   
-  
-  
-  
 B.  
-		
+  
 ### ```Problem 3:```  
 asdjhksajd
 asdsad
 sadsad
 asdsa
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
+
+
