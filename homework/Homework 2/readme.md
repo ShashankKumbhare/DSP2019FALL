@@ -1,10 +1,11 @@
 # HOMEWORK 2 (SHASHANK KUMBHARE) #  
 
-### <p align="center">```Problem 1: ```</p>
+### <p align="center">```Problem 1: ```</p>  
 	
 click [here](./problem1.py) for problem 1 code.  
 	
-### ```Problem 2:```
+### <p align="center">```Problem 2: ```</p>  
+
 
 consider, a = 5  
 1. Objects are numbers/values. In this case '5' is an object.
@@ -63,7 +64,7 @@ Hence the output.
   
 B.  
   
-### ```Problem 3:```  
+### <p align="center">```Problem 2: ```</p>  
 asdjhksajd
 asdsad
 sadsad
