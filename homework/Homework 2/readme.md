@@ -17,9 +17,10 @@ Problem 2:
 	6. print(a) prints the object towards which the pointer 'a' is pointing.  
 	
 	A.  
-		a = 5  
-		b = a  
-		print (id(a), id(b))  
+	```python	
+	a = 5  
+	b = a  
+	print (id(a), id(b))  ```
 		
 		Output:  
 		140714951152576 140714951152576   
@@ -60,7 +61,7 @@ Problem 2:
 		  
 	B.  
 		
-Problem 3:
+Problem 3:  
 
 	asdjhksajd
 	asdsad
