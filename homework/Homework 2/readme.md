@@ -1,6 +1,7 @@
 # HOMEWORK 2 (SHASHANK KUMBHARE) #  
 
 Problem 1:  
+
 		click [here](./problem1.py) for problem 1 code.  
   
   
@@ -15,7 +16,8 @@ Problem 2:
 		4. a = 5 : This creates a new pointer/variable with name 'a' which points towards the id of object '5'.  
 		5. b = a : This creates a new pointer/variable with name 'b' and is a copycat of pointer 'a' and will point towards id of '5'.  
 		6. print(a) prints the object towards which the pointer 'a' is pointing.  
-		 		
+	
+	A.  
 		a = 5  
 		b = a  
 		print (id(a), id(b))  
