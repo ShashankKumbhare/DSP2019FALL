@@ -72,7 +72,7 @@ asdsa
 
 <center>Centered text</center>
 
-
+<p align="centre">Lorem ipsum</p>
 
 
 
