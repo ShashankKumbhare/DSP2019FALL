@@ -4,22 +4,34 @@ Problem 1:
 click [here](./problem1.py) for problem 1 code.  
 
 Problem 2:  
-
-	A.  
+		consider, a = 5
+	1. Objects are numbers/values. In this case '5' is an object.
+	(Different objects have different location/address/id).   
+	2. Variables are pointers to the id of the objects. In this case 'a' is a pointer and 'a' is pointing towards id of object '5'.  
+	(Variables points towards the id of object).  
+	3. id(a) gives the id towards which the pointer 'a' of the object '5' is pointing.    
+	4. a = 5 : This creates a new pointer/variable with name 'a' which points towards the id of object '5'.  
+	5. b = a : This creates a new pointer/variable with name 'b' and is a copycat of pointer 'a' and will point towards id of '5'.  
+	6. print(a) prints the object towards which the pointer 'a' is pointing.  
+	
+	A.  		
 		a = 5  
 		b = a  
 		print (id(a), id(b))  
 		
-		Output: 140714951152576 140714951152576  
+		Output: 140714951152576 140714951152576   
 		
-		Explanation: 
-		1. Objects are numbers/values (and different objects have different location/address).   
-		2. Variables are pointers to the location/address of objects. (Variables points to the location/address).  
-		3. id() gives the address/location of the object.  
-		4. a = 5 : This creates a new variable/pointer which points towards the address/location of object 5.  
-		5. b = a : This creates a new pointer/variable and is a copycat of pointer a.  
-		6. Hence, both id(a) and id(b) are giving the same address, since both a and b points towards the same object.  
+		Explanation:  
+		'a' points towards id of '5'. 'b' is a copycat of 'a'. Hence, both id(a) and id(b) are giving the same address, since 'a' and 'b' are pointing towards the same object '5'.  
 		
 	B. 
+		c = b  
+		b = 3  
+		print (a,b,c)  
+		print (id(a),id(b),id(c))  
 		
+		Output: 5 3 5  
+				140714951152576 140714951152512 140714951152576  
+		
+		Explanation:  'c' is a copycat of 'b' 
 		
