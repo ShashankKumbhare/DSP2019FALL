@@ -19,7 +19,7 @@ consider, a = 5
 	
 ```A.```  
 ```python
-a = 5  
+a = 5  		
 b = a  
 print (id(a), id(b))
 ```
