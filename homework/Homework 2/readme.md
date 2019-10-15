@@ -61,7 +61,12 @@ Problem 2:
 		  
 	B.  
 		
-		
+Problem 3:
+
+	asdjhksajd
+	asdsad
+	sadsad
+	asdsa
 		
 		
 		
