@@ -42,7 +42,7 @@ print (id(a),id(b),id(c))
 140714951152576 140714951152512 140714951152576  
 ```	
 Explanation:  
-'a' and 'b' is pointing towards id of '5'.  
+Both 'a' and 'b' are pointing towards id of '5'.  
 c = b : 'c' is a copycat of 'b', so 'c' will point towards id of '5'.   
 b = 3 : Now, b is pointing towards id of '3'.  
 Hence the output.  
