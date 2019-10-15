@@ -27,7 +27,9 @@ print (id(a), id(b))
 140714951152576 140714951152576   
 ```		
 Explanation:  
-'a' points towards id of '5'. 'b' is a copycat of 'a'. Hence, both id(a) and id(b) are giving the same address, since 'a' and 'b' are pointing towards the same object '5'.  	  
+'a' points towards id of '5'.  
+b = a : 'b' is a copycat of 'a'.  
+Hence, both id(a) and id(b) are giving the same address, since 'a' and 'b' are pointing towards the same object '5'.  	  
    
 ```python		  
 c = b  
