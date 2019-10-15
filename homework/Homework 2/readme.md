@@ -5,6 +5,7 @@ Problem 1:
   
   
 Problem 2:  
+
 		consider, a = 5  
 		1. Objects are numbers/values. In this case '5' is an object.
 		(Different objects have different location/address/id).  
@@ -14,8 +15,7 @@ Problem 2:
 		4. a = 5 : This creates a new pointer/variable with name 'a' which points towards the id of object '5'.  
 		5. b = a : This creates a new pointer/variable with name 'b' and is a copycat of pointer 'a' and will point towards id of '5'.  
 		6. print(a) prints the object towards which the pointer 'a' is pointing.  
-	
-	 		
+		 		
 		a = 5  
 		b = a  
 		print (id(a), id(b))  
