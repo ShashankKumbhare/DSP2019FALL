@@ -17,7 +17,7 @@ consider, a = 5
 5. 	b = a : This creates a new pointer/variable with name 'b' and is a copycat of pointer 'a' and will point towards id of '5'.  
 6. 	print(a): prints the object towards which the pointer 'a' is pointing.  
 	
-A.  
+```A.```  
 ```python
 a = 5  
 b = a  
@@ -61,7 +61,7 @@ b = a : 'b' is a copycat of 'a', so 'b' is pointing towards id of '5'.
 b = 5 : This creates a new pointer 'b' which will point towards '5'.  
 Hence the output.  
   
-B.    
+```B.```    
 ```python		  
 b = a  
 b = 5  
