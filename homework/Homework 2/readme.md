@@ -33,5 +33,8 @@ Problem 2:
 		Output: 5 3 5  
 				140714951152576 140714951152512 140714951152576  
 		
-		Explanation:  'c' is a copycat of 'b' 
-		
+		Explanation:  
+		'a' is pointing towards id of '5'.
+		c = b : 'c' is a copycat of 'b', so 'c' will point towards id of '5'.  
+		b = 3 : Now, b is pointing towards id of '3'.  
+		Hence the output.
