@@ -63,17 +63,17 @@ Hence the output.
   
 ```B.```    
 ```python		  
-b = a  
-b = 5  
+a = [5]
+b = a
 print (id(a), id(b))  
 ```
 ```				
-140714951152576 140714951152576  
+[5] [5, 1, 1]
+2437143304520 2437144782856  
 ```  
 Explanation:  
-'a' is pointing towards id of '5'.  
-b = a : 'b' is a copycat of 'a', so 'b' is pointing towards '5'.  
-b = 5 : This creates a new pointer 'b' which will point towards '5'.  
+'a' is pointing towards id of object '[5]'.  
+b = a : 'b' is a copycat of 'a', so 'b' is pointing towards ['5'].    
 Hence the output.  
 
 ### <p align="center">```Problem 3: ```</p>  
