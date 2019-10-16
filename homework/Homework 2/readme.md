@@ -125,6 +125,36 @@ print (id(a), id(b))
 Explanation:  
 b = a[:] : This also creates a new pointer 'b' which points towards a list-object '[ ]' contaning all the elements of a list '[ ]' towards which 'a' is pointing.    
 
+### ```D.```    
+
+```python		  
+a = (5,)
+b = tuple(a)
+print (id(a), id(b)) 
+```
+```				
+2437144241376 2437144241376
+```  
+Explanation:  
+a = [5] : This creates a new pointer 'a' which points towards id of list-object '[ ]' containing an element '5'.  
+list(a) : This creates a new list-object '[ ]' containg the elements of iterable-object towards which 'a' is pointing.  
+b = list(a) : This creates a new pointer 'b' which points towards a list-object '[ ]' contaning the elements of iterable-object towards which 'a' is pointing.    
+Notice that 'a' and list(a) are not the same object, since list(a) creates a new list-object.    
+Hence the output.  
+
+```python		  
+b = a[:]
+print (id(a), id(b))
+```
+```				
+2437144241376 2437144241376
+```  
+Explanation:  
+a = [5] : This creates a new pointer 'a' which points towards id of list-object '[ ]' containing an element '5'.  
+list(a) : This creates a new list-object '[ ]' containg the elements of iterable-object towards which 'a' is pointing.  
+b = list(a) : This creates a new pointer 'b' which points towards a list-object '[ ]' contaning the elements of iterable-object towards which 'a' is pointing.    
+Notice that 'a' and list(a) are not the same object, since list(a) creates a new list-object.    
+Hence the output. 
 
 ## <p align="center">```Problem 3: ```</p>  
 
