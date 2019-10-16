@@ -1,6 +1,6 @@
 ## HOMEWORK 2 (SHASHANK KUMBHARE) #  
 
-### <p align="center">```Problem 1: ```</p>  
+## <p align="center">```Problem 1: ```</p>  
 	
 click [here](./problem1.py) for problem 1 code.  
 	
