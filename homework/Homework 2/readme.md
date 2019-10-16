@@ -1,6 +1,6 @@
 ## HOMEWORK 2 (SHASHANK KUMBHARE) #  
 
-### ```Problem 1: Python script call from the Bash command line```  
+### Problem 1: Python script call from the Bash command line  
 	
 click [here](./problem1.py) for problem 1 code.  
 	
