@@ -157,11 +157,11 @@ b = a[:] : This also creates a new pointer 'b' which points towards a tuple-obje
 Notice that 'a' and a[:] are the same object, since tuple(a) creates a new tuple-object.  
 Hence the output.  
 
-### <p align="center">```Problem 3: Implementing the Bell-shaped (Gaussian) function```</p>  
+### ```Problem 3: Implementing the Bell-shaped (Gaussian) function```  
 
 click [here](./problem3.py) for problem 3 code.  
 
-### <p align="center">```Problem 4: Branching, the Pythonic way```</p>  
+### ```Problem 4: Branching, the Pythonic way```  
 
 ### <p align="center">```4.A```</p>
 ```python
