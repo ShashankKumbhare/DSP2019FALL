@@ -4,7 +4,7 @@
 	
 click [here](./problem1.py) for problem 1 code.  
 	
-### <p align="center">```Problem 2: ```</p>  
+## <p align="center">```Problem 2: ```</p>  
 
 
 consider, a = 5  
@@ -17,7 +17,7 @@ consider, a = 5
 5. 	b = a : This creates a new pointer/variable with name 'b' and is a copycat of pointer 'a' and will point towards id of '5'.  
 6. 	print(a): prints the object towards which the pointer 'a' is pointing.  
 	
-```A.```  
+### ```A.```  
 
 ```python
 a = 5  		
@@ -63,7 +63,7 @@ b = a : This creates a new pointer 'b' which is a copycat of 'a', so 'b' is poin
 b = 5 : This creates a new pointer 'b' which points towards id of '5'.  
 Hence the output.  
   
-```B.```    
+### ```B.```    
 
 ```python		  
 a = [5]
@@ -94,7 +94,7 @@ b.append(1) : This adds an element '1' in the list-object '[ ]' containing an el
 Note: List and its elements have different ids.   
 Hence the output.  
 
-```C.```    
+### ```C.```    
 
 ```python		  
 a = [5]
@@ -126,7 +126,7 @@ Explanation:
 b = a[:] : This also creates a new pointer 'b' which points towards a list-object '[ ]' contaning all the elements of a list '[ ]' towards which 'a' is pointing.    
 
 
-### <p align="center">```Problem 3: ```</p>  
+## <p align="center">```Problem 3: ```</p>  
 
 
 
