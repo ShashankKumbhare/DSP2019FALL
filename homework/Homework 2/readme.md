@@ -159,6 +159,8 @@ Hence the output.
 
 ## <p align="center">```Problem 3: ```</p>  
 
+click [here](./problem3.py) for problem 3 code.  
+
 
 
 
