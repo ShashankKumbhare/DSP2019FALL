@@ -28,7 +28,7 @@ print (id(a), id(b))
 140714951152576 140714951152576   
 ```		
 Explanation:  
-a = 5 : This creates a new pointer 'a' which will points towards id of '5'.    
+a = 5 : This creates a new pointer 'a' which points towards id of '5'.    
 b = a : This creates a new pointer 'b' which is a copycat of 'a' and points towards id of '5'.  
 Hence, both id(a) and id(b) are giving the same address, since 'a' and 'b' are pointing towards the same object '5'.  	  
    
@@ -45,7 +45,7 @@ print (id(a),id(b),id(c))
 Explanation:  
 Both 'a' and 'b' are pointing towards id of '5'.  
 c = b : This creates a new pointer 'c' which is a copycat of 'b', so 'c' will also point towards id of '5'.   
-b = 3 : This creates a new pointer 'b' which will point towards id of '3' and now this will have no effect on 'a' or 'b'.  
+b = 3 : This creates a new pointer 'b' which points towards id of '3' and now this will have no effect on 'a' or 'c'.  
 Hence the output.  
   
 ```python		  
@@ -57,9 +57,10 @@ print (id(a), id(b))
 140714951152576 140714951152576  
 ```		  
 Explanation:  
+
 'a' is pointing towards id of '5'.  
 b = a : This creates a new pointer 'b' which is a copycat of 'a', so 'b' is pointing towards id of '5'.  
-b = 5 : This creates a new pointer 'b' which will point towards id of '5'.  
+b = 5 : This creates a new pointer 'b' which points towards id of '5'.  
 Hence the output.  
   
 ```B.```    
@@ -73,8 +74,9 @@ print (id(a), id(b))
 2437144781192 2437144781192 
 ```  
 Explanation:  
-'a' is pointing towards id of object '[5]'.  
-b = a : 'b' is a copycat of 'a', so 'b' is pointing towards ['5'].    
+a = [5] : This creates a new pointer 'a' which points towards id of list-object '[]'.    
+And the list-object '[]' contains an int-object '5'.   
+b = a : This creates a new pointer 'b' which is a copycat of 'a', so 'b' is pointing towards id of '[]'.    
 Hence the output.  
 
 ```python		  
@@ -87,9 +89,9 @@ print (id(a),id(b))
 2437144182088 2437144182088  
 ```  
 Explanation:  
-'a' is pointing towards id of object '[5]'.  
-b.append(1) : This adds an element at the end of list 'b'. This does not change object rather change the no. of elements in the list.  
-List and its elements have different id.   
+'a' and 'b' are pointing towards id of object '[]' containing an element '5'.  
+b.append(1) : This adds an element '1' in the list-object '[]' containing an element '5' towards which 'b' is pointing at the end. This does not change the list-object '[]' rather change the no. of elements it posses.  
+Note: List and its elements have different ids.   
 Hence the output.  
 
 ```C.```    
@@ -102,12 +104,13 @@ print (id(a), id(b))
 ```
 ```				
 [5] [5]
-2437144179720 2437144912840 
+2437145015176 2437145035272
 ```  
 Explanation:  
-'a' is pointing towards id of object '[5]'.  
-b = list(a) : This creates a new pointer 'b' which will point towards list(a).  
-Notice that 'a' and list(a) are not the same object.  
+a = [5] : This creates a new pointer 'a' which points towards id of list-object '[]' containing an element '5'.  
+list(a) : This creates a new list-object '[]' containg the elements of iterable-object towards which 'a' is pointing.  
+b = list(a) : This creates a new pointer 'b' which points towards a list-object '[]' contaning the elements of iterable-object towards which 'a' is pointing.    
+Notice that 'a' and list(a) are not the same object, since list(a) creates a new list-object.    
 Hence the output.  
   
 ```python		  
@@ -117,11 +120,10 @@ print (id(a), id(b))
 ```
 ```				
 [5] [5]
-2437144179720 2437144898632 
+2437145015176 2437144226824
 ```  
 Explanation:  
-b = a[:] : This creates a new pointer 'b' which will point towards a[:].  
-Notice that value in 'a', list(a) and a[:] are same but their ids are different.  
+b = a[:] : This also creates a new pointer 'b' which points towards a list-object '[]' contaning all the elements of a list '[]' towards which 'a' is pointing.    
 
 
 ### <p align="center">```Problem 3: ```</p>  
