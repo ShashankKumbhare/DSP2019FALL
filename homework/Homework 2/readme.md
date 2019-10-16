@@ -18,6 +18,7 @@ consider, a = 5
 6. 	print(a): prints the object towards which the pointer 'a' is pointing.  
 	
 ```A.```  
+
 ```python
 a = 5  		
 b = a  
@@ -62,27 +63,65 @@ b = 5 : This creates a new pointer 'b' which will point towards '5'.
 Hence the output.  
   
 ```B.```    
+
 ```python		  
 a = [5]
 b = a
 print (id(a), id(b))  
 ```
 ```				
-[5] [5, 1, 1]
-2437143304520 2437144782856  
+2437144781192 2437144781192 
 ```  
 Explanation:  
 'a' is pointing towards id of object '[5]'.  
 b = a : 'b' is a copycat of 'a', so 'b' is pointing towards ['5'].    
 Hence the output.  
 
-### <p align="center">```Problem 3: ```</p>  
-asdjhksajd
-asdsad
-sadsad
-asdsa
+```python		  
+b.append(1)
+print (a,b)
+print (id(a),id(b)) 
+```
+```				
+[5, 1] [5, 1]
+2437144182088 2437144182088  
+```  
+Explanation:  
+'a' is pointing towards id of object '[5]'.  
+b.append(1) : This adds an element at the end of list 'b'. This does not change object rather change the no. of elements in the list.
+List and its elements have different id.   
+Hence the output.  
 
-<p align="center">Lorem ipsum</p>
+```C.```    
+
+```python		  
+a = [5]
+b = list(a)
+print (a,b)
+print (id(a), id(b))  
+```
+```				
+[5] [5]
+2437144179720 2437144912840 
+```  
+Explanation:  
+  
+```python		  
+b = a[:]
+print (a,b)
+print (id(a), id(b))  
+```
+```				
+[5] [5]
+2437144179720 2437144898632 
+```  
+Explanation:  
+
+
+### <p align="center">```Problem 3: ```</p>  
+
+
+
 
 
 
