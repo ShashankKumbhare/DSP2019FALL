@@ -12,7 +12,7 @@ consider, a = 5
 	Different objects have different location/address/id)
 2.	Variables are pointers to the id of the objects. In this case 'a' is a pointer and 'a' is pointing towards id of object '5'.  
 	Variables points towards the id of object.  
-3.	id(a) gives the id towards which the pointer 'a' is pointing. In this case, id(a) will give id of object '5', because 'a' is pointing towards 'a'.     
+3.	id(a) gives the id towards which the pointer 'a' is pointing. In this case, id(a) will give id of object '5', because 'a' is pointing towards id of '5'.     
 4.	a = 5 : This creates a new pointer/variable with name 'a' which points towards the id of object '5'.   
 5. 	b = a : This creates a new pointer/variable with name 'b' and is a copycat of pointer 'a' and will point towards id of '5'.  
 6. 	print(a): prints the object towards which the pointer 'a' is pointing.  
@@ -28,8 +28,8 @@ print (id(a), id(b))
 140714951152576 140714951152576   
 ```		
 Explanation:  
-a = 5 : This creates a new pointer 'a' which will point towards id of '5'.    
-b = a : 'b' is a copycat of 'a'.  
+a = 5 : This creates a new pointer 'a' which will points towards id of '5'.    
+b = a : This creates a new pointer 'b' which is a copycat of 'a' and points towards id of '5'.  
 Hence, both id(a) and id(b) are giving the same address, since 'a' and 'b' are pointing towards the same object '5'.  	  
    
 ```python		  
@@ -43,8 +43,8 @@ print (id(a),id(b),id(c))
 140714951152576 140714951152512 140714951152576  
 ```	
 Explanation:  
-Both 'a' is pointing towards id of '5'. 'b' is a copycat of 'a'.  
-c = b : 'c' is a copycat of 'b', so 'c' will also point towards id of '5'.   
+Both 'a' and 'b' are pointing towards id of '5'.  
+c = b : This creates a new pointer 'c' which is a copycat of 'b', so 'c' will also point towards id of '5'.   
 b = 3 : This creates a new pointer 'b' which will point towards id of '3' and now this will have no effect on 'a' or 'b'.  
 Hence the output.  
   
@@ -58,8 +58,8 @@ print (id(a), id(b))
 ```		  
 Explanation:  
 'a' is pointing towards id of '5'.  
-b = a : 'b' is a copycat of 'a', so 'b' is pointing towards id of '5'.  
-b = 5 : This creates a new pointer 'b' which will point towards '5'.  
+b = a : This creates a new pointer 'b' which is a copycat of 'a', so 'b' is pointing towards id of '5'.  
+b = 5 : This creates a new pointer 'b' which will point towards id of '5'.  
 Hence the output.  
   
 ```B.```    
@@ -105,6 +105,10 @@ print (id(a), id(b))
 2437144179720 2437144912840 
 ```  
 Explanation:  
+'a' is pointing towards id of object '[5]'.  
+b = list(a) : This creates a new pointer 'b' which will point towards list(a).  
+Notice that 'a' and list(a) are not the same object.  
+Hence the output.  
   
 ```python		  
 b = a[:]
@@ -116,6 +120,8 @@ print (id(a), id(b))
 2437144179720 2437144898632 
 ```  
 Explanation:  
+b = a[:] : This creates a new pointer 'b' which will point towards a[:].  
+Notice that value in 'a', list(a) and a[:] are same but their ids are different.  
 
 
 ### <p align="center">```Problem 3: ```</p>  
