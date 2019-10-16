@@ -8,9 +8,9 @@ click [here](./problem1.py) for problem 1 code.
 
 
 consider, a = 5  
-1.	Objects are numbers/values. In this case '5' is an object.  
+1.	Objects are numbers/values. In this case, '5' is an object.  
 	Different objects have different location/address/id)
-2.	Variables are pointers to the id of the objects. In this case 'a' is a pointer and 'a' is pointing towards id of object '5'.  
+2.	Variables are pointers to the id of the objects. In this case, 'a' is a pointer and 'a' is pointing towards id of object '5'.  
 	Variables points towards the id of object.  
 3.	id(a) gives the id towards which the pointer 'a' is pointing. In this case, id(a) will give id of object '5', because 'a' is pointing towards id of '5'.     
 4.	a = 5 : This creates a new pointer/variable with name 'a' which points towards the id of object '5'.   
@@ -71,7 +71,7 @@ b = a
 print (id(a), id(b))  
 ```
 ```				
-2437144781192 2437144781192 
+2437144181896 2437144181896  
 ```  
 Explanation:  
 a = [5] : This creates a new pointer 'a' which points towards id of list-object '[ ]'.    
@@ -86,7 +86,7 @@ print (id(a),id(b))
 ```
 ```				
 [5, 1] [5, 1]
-2437144182088 2437144182088  
+2437144181896 2437144181896  
 ```  
 Explanation:  
 'a' and 'b' are pointing towards id of object '[ ]' containing an element '5'.  
@@ -120,9 +120,10 @@ print (id(a), id(b))
 ```
 ```				
 [5] [5]
-2437145015176 2437144226824
+2437144973768 2437145017416
 ```  
 Explanation:  
+a[:] : This creates an iterable-object of the type towards which 'a' is pointing. In this case, the new iterable-object created would be a list-object since 'a' is pointing towards a list-object [ ].    
 b = a[:] : This also creates a new pointer 'b' which points towards a list-object '[ ]' contaning all the elements of a list '[ ]' towards which 'a' is pointing.    
 
 ### ```D.```    
@@ -133,7 +134,7 @@ b = tuple(a)
 print (id(a), id(b)) 
 ```
 ```				
-2437144241376 2437144241376
+2437143136632 2437143136632
 ```  
 Explanation:  
 a = [5] : This creates a new pointer 'a' which points towards id of list-object '[ ]' containing an element '5'.  
@@ -147,7 +148,7 @@ b = a[:]
 print (id(a), id(b))
 ```
 ```				
-2437144241376 2437144241376
+2437143136632 2437143136632
 ```  
 Explanation:  
 a = [5] : This creates a new pointer 'a' which points towards id of list-object '[ ]' containing an element '5'.  
