@@ -4,7 +4,7 @@
 	
 click [here](./problem1.py) for problem 1 code.  
 	
-### ```Problem 2: Python aliasing vs. copying variables```  
+### ```Problem 2:``` Python aliasing vs. copying variables  
 
 
 consider, a = 5  
