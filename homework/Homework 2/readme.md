@@ -1,10 +1,10 @@
 ## HOMEWORK 2 (SHASHANK KUMBHARE) #  
 
-### ```Problem 1:``` Python script call from the Bash command line  
+### <p align="center">```Problem 1:``` Python script call from the Bash command line</p>  
 	
 click [here](./problem1.py) for problem 1 code.  
 	
-### ```Problem 2:``` Python aliasing vs. copying variables  
+### <p align="center">```Problem 2:``` Python aliasing vs. copying variables</p>  
 
 
 consider, a = 5  
