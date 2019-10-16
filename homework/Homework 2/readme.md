@@ -162,12 +162,14 @@ Hence the output.
 click [here](./problem3.py) for problem 3 code.  
 
 ### <p align="center">```Problem 4: Branching, the Pythonic way```</p>  
+
+### <p align="center">```4.A```</p>
 ```python
 #!/usr/bin/env python
 
 abbr = input ("What is the three-letter abbreviation of this course? ")
 
-answer_status = ('correct' if abbr == 'DSP' else 'wrong')
+answer_status = 'correct' if abbr == 'DSP' else 'wrong'
 
 if answer_status=='correct':
     print('You answer is correct!')
@@ -175,7 +177,23 @@ else:
     print("wrong buddy...try again") 
 ```
 
+### <p align="center">```4.B```</p>
+```python
+ 
+```
 
+### <p align="center">```4.C```</p>  
+```python
+#!/usr/bin/env python
+
+abbr = input ("What is the three-letter abbreviation of this course? ")
+
+nswer_status = 'wrong'
+if abbr == 'DSP':
+answer_status = 'correct'
+
+print('You answer is correct!' if answer_status=='correct' else "wrong buddy...try again")
+```
 
 
 
