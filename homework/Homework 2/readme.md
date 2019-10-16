@@ -1,10 +1,10 @@
 ## HOMEWORK 2 (SHASHANK KUMBHARE) #  
 
-## <p align="center">```Problem 1: ```</p>  
+### <p align="center">```Problem 1: ```</p>  
 	
 click [here](./problem1.py) for problem 1 code.  
 	
-## <p align="center">```Problem 2: ```</p>  
+### <p align="center">```Problem 2: ```</p>  
 
 
 consider, a = 5  
@@ -157,7 +157,7 @@ b = a[:] : This also creates a new pointer 'b' which points towards a tuple-obje
 Notice that 'a' and a[:] are the same object, since tuple(a) creates a new tuple-object.  
 Hence the output.  
 
-## <p align="center">```Problem 3: ```</p>  
+### <p align="center">```Problem 3: ```</p>  
 
 click [here](./problem3.py) for problem 3 code.  
 
