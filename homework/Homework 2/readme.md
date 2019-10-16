@@ -88,7 +88,7 @@ print (id(a),id(b))
 ```  
 Explanation:  
 'a' is pointing towards id of object '[5]'.  
-b.append(1) : This adds an element at the end of list 'b'. This does not change object rather change the no. of elements in the list.
+b.append(1) : This adds an element at the end of list 'b'. This does not change object rather change the no. of elements in the list.  
 List and its elements have different id.   
 Hence the output.  
 
