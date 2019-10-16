@@ -17,7 +17,7 @@ consider, a = 5
 5. 	b = a : This creates a new pointer/variable with name 'b' and is a copycat of pointer 'a' and will point towards id of '5'.  
 6. 	print(a): prints the object towards which the pointer 'a' is pointing.  
 	
-### ```A.```  
+### <p align="center">```A.```</p>  
 
 ```python
 a = 5  		
@@ -63,7 +63,7 @@ b = a : This creates a new pointer 'b' which is a copycat of 'a', so 'b' is poin
 b = 5 : This creates a new pointer 'b' which points towards id of '5'.  
 Hence the output.  
   
-### ```B.```    
+### <p align="center">```B.```</p>    
 
 ```python		  
 a = [5]
@@ -93,7 +93,7 @@ b.append(1) : This adds an element '1' in the list-object '[ ]' containing an el
 Note: List and its elements have different ids.   
 Hence the output.  
 
-### ```C.```    
+### <p align="center">```C.```</p>    
 
 ```python		  
 a = [5]
@@ -127,7 +127,7 @@ b = a[:] : This also creates a new pointer 'b' which points towards a list-objec
 Notice that 'a' and a[:] are not the same object, since list(a) creates a new list-object.    
 Hence the output.  
 
-### ```D.```    
+### <p align="center">```D.```</p>    
 
 ```python		  
 a = (5,)
