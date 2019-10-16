@@ -1,10 +1,10 @@
 ## HOMEWORK 2 (SHASHANK KUMBHARE) #  
 
-### <p align="center">```Problem 1:``` Python script call from the Bash command line</p>  
+### <p align="center">```Problem 1: Python script call from the Bash command line```</p>  
 	
 click [here](./problem1.py) for problem 1 code.  
 	
-### <p align="center">```Problem 2:``` Python aliasing vs. copying variables</p>  
+### <p align="center">```Problem 2: Python aliasing vs. copying variables```</p>  
 
 
 consider, a = 5  
@@ -179,7 +179,16 @@ else:
 
 ### <p align="center">```4.B```</p>
 ```python
- 
+#!/usr/bin/env python
+
+abbr = input ("What is the three-letter abbreviation of this course? ")
+
+answer_status = 'correct' if abbr == 'DSP' else 'wrong'
+
+if answer_status=='correct':
+    print('You answer is correct!')
+else:
+    print("wrong buddy...try again") 
 ```
 
 ### <p align="center">```4.C```</p>  
