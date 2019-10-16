@@ -1,10 +1,10 @@
 ## HOMEWORK 2 (SHASHANK KUMBHARE) #  
 
-### <p align="center">```Problem 1: Python script call from the Bash command line```</p>  
+### ```Problem 1: Python script call from the Bash command line```  
 	
 click [here](./problem1.py) for problem 1 code.  
 	
-### <p align="center">```Problem 2: Python aliasing vs. copying variables```</p>  
+### ```Problem 2: Python aliasing vs. copying variables```  
 
 
 consider, a = 5  
@@ -157,11 +157,11 @@ b = a[:] : This also creates a new pointer 'b' which points towards a tuple-obje
 Notice that 'a' and a[:] are the same object, since tuple(a) creates a new tuple-object.  
 Hence the output.  
 
-### ```Problem 3: Implementing the Bell-shaped (Gaussian) function```  
+### <p align="center">```Problem 3: Implementing the Bell-shaped (Gaussian) function```</p>  
 
 click [here](./problem3.py) for problem 3 code.  
 
-### ```Problem 4: Branching, the Pythonic way```  
+### <p align="center">```Problem 4: Branching, the Pythonic way```</p>  
 
 ### <p align="center">```4.A```</p>
 ```python
