@@ -398,12 +398,21 @@ while i<len(Cdegrees):
 ```
 click [here](./problem10.py) for the above problem10.py file.
 
-### <p align="center">```Problem 11: ```</p>  
+### <p align="center">```Problem 11: Command line input arguments summation via sum( )```</p>  
 
 ```python
 
 ```
 click [here](./problem11.py) for the above problem11.py file.
 
+### <p align="center">```Problem 12: Command line input arguments summation via eval( ) ```</p>  
 
+```python
+#!/usr/bin/env python
+
+import sys
+
+print( 'The sum of {} is {}'.format( ' '.join(sys.argv[1:]) , eval('+'.join(sys.argv[1:]) ) ) )
+```
+click [here](./problem12.py) for the above problem12.py file.
 
