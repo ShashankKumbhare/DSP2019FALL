@@ -334,7 +334,7 @@ def fibLoop():
 ```
 click [here](./problem6B.py) for the above problem 6B code.  
 
-### <p align="center">```6.B```</p>
+### <p align="center">```6.C```</p>
   
 When we time fib( ) and fibLoop( ) for the same input integers 10, 15, 20, 25, 30 and 35, we found that fibLoop( ) is more efficient than fib( ). The reason is that fib() is calling getFib() multiple times so it takes more computation time.
 
