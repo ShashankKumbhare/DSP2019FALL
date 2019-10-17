@@ -412,7 +412,7 @@ click [here](./problem11.py) for the above problem11.py file.
 
 import sys
 
-print( 'The sum of {} is {}'.format( ' '.join(sys.argv[1:]) , eval('+'.join(sys.argv[1:]) ) ) )
+print("The sum of {} is {}".format( " ".join(sys.argv[1:]) , eval("+".join(sys.argv[1:]) ) ) )
 ```
 click [here](./problem12.py) for the above problem12.py file.
 
