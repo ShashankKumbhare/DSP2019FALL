@@ -266,6 +266,42 @@ click [here](./problem5.py) for the above problem 5 code.
 
 ### <p align="center">```Problem 6: Computing the Fibonacci sequence via for-loop```</p>  
 
+### <p align="center">```6.A```</p>
+```python
+#!/usr/bin/env python
+
+import time
+
+def fib():
+        
+    def getFib(n_int):
+        if n_int==0 or n_int==1:
+            F=n_int
+        else:
+            F=getFib(n_int-1)+getFib(n_int-2)
+        return F
+    
+    n=input("Please enter a non-negative integer or type stop: ")
+ 
+    if n=='stop':
+        return
+    elif n.isdigit():
+        n_int=int(n)
+        print("fib(",n_int,") =",getFib(n_int),"\naverage runtime: ",time.process_time(),"seconds")
+        fib()
+    else:
+        print("The input argument is not a non-negative integer!")
+        fib()
+        
+    return None
+```
+click [here](./problem6A.py) for the above problem 6A code.  
+
+### <p align="center">```6.B```</p>
+```python
+
+```
+click [here](./problem6B.py) for the above problem 6B code.  
 
 
 
