@@ -383,7 +383,20 @@ def  getTriangleArea(a):
 ```
 click [here](./problem9.py) for the above problem9.py file.
 
+### <p align="center">```Problem 10: The while-loop implementation of for-loop```</p>  
 
+```python
+#!/usr/bin/env python
+
+Cdegrees = [-20, -15, -10, -5, 0, 5, 10, 15, 20, 25, 30, 35, 40]
+print ('    C     F')
+i=0
+while i<len(Cdegrees):
+    F = (9.0/5)*Cdegrees[i] + 32
+    print("%5d %5.1f"  % (Cdegrees[i],F))
+    i+=1
+```
+click [here](./problem10.py) for the above problem10.py file.
 
 
 
