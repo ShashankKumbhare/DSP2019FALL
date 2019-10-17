@@ -359,6 +359,6 @@ def isPrime(n):
     else:
         return modulus(n,2)
 ```
-
+click [here](./problem7.py) for the above problem 7 code.
 
 
