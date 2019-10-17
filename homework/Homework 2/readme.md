@@ -227,6 +227,7 @@ click [here](./problem4A.py) for the above problem 4A code.
 abbr = input ("What is the three-letter abbreviation of this course? ")
 
 answer_status = 'wrong'
+
 if abbr == 'DSP':
 	answer_status = 'correct'
 
