@@ -28,7 +28,7 @@ FOR
 STRING
 MANIPULATION!""")  
 ```	
-click [here](./problem1.py) for the above problem 1 code.  
+click [here](./problem1.py) for the above problem 1 .py file.  
 	
 	
 ### <p align="center">```Problem 2: Python aliasing vs. copying variables```</p>  
@@ -198,7 +198,7 @@ x=1
 y=1/sqrt(2*pi)/sigma*exp(-1/2*((x-mu)/sigma)**2)
 print(y)
 ```
-click [here](./problem3.py) for the above problem 3 code.  
+click [here](./problem3.py) for the above problem 3 .py file.  
 
 
 ### <p align="center">```Problem 4: Branching, the Pythonic way```</p>  
@@ -216,7 +216,7 @@ if answer_status=='correct':
 else:
     print("wrong buddy...try again") 
 ```
-click [here](./problem4A.py) for the above problem 4A code.  
+click [here](./problem4A.py) for the above problem 4A .py file.  
 
 ### <p align="center">```4.B```</p>
 ```python
@@ -236,7 +236,7 @@ if abbr == 'DSP':
 
 print('You answer is correct!' if answer_status=='correct' else "wrong buddy...try again")
 ```
-click [here](./problem4A.py) for the above problem 4C code.  
+click [here](./problem4A.py) for the above problem 4C .py file.  
 
 
 ### <p align="center">```Problem 5: Branching, the Pythonic way```</p>  
@@ -266,7 +266,7 @@ def fib():
         
     return None
 ```
-click [here](./problem5.py) for the above problem 5 code.  
+click [here](./problem5.py) for the above problem 5 .py file.  
 
 
 ### <p align="center">```Problem 6: Computing the Fibonacci sequence via for-loop```</p>  
@@ -300,7 +300,7 @@ def fib():
         
     return None
 ```
-click [here](./problem6A.py) for the above problem 6A code.  
+click [here](./problem6A.py) for the above problem 6A .py file.  
 
 ### <p align="center">```6.B```</p>
 ```python
@@ -337,7 +337,7 @@ def fibLoop():
         
     return None
 ```
-click [here](./problem6B.py) for the above problem 6B code.  
+click [here](./problem6B.py) for the above problem 6B .py file.  
 
 ### <p align="center">```6.C```</p>
   
@@ -367,6 +367,6 @@ def isPrime(n):
     else:
         return modulus(n,2)
 ```
-click [here](./problem7.py) for the above problem 7 code.
+click [here](./problem7.py) for the above problem 7 .py file.
 
 
