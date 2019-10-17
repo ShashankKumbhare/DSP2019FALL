@@ -1,8 +1,34 @@
 ## HOMEWORK 2 (SHASHANK KUMBHARE) #  
 
 ### <p align="center">```Problem 1: Python script call from the Bash command line```</p>  
-	
-click [here](./problem1.py) for problem 1 code.  
+```python		  
+#!/usr/bin/env python
+print("""This is Python version 3.5.2 
+Python is the best language for String manipulation!
+!noitalupinam gnirtS rof egaugnal tseb eht si nohtyP
+!otlpnmgit o gunlte h inhy
+pYTHON IS THE BEST LANGUAGE FOR sTRING MANIPULATION!
+The sentence 'Python is the best language for String manipulation!' contains 
+4 'a' letters, and
+0 'A' letters!
+Python
+is
+the
+best
+language
+for
+String
+manipulation!
+PYTHON
+IS
+THE
+BEST
+LANGUAGE
+FOR
+STRING
+MANIPULATION!""") 
+```	
+click [here](./problem1.py) for the above problem 1 code.  
 	
 ### <p align="center">```Problem 2: Python aliasing vs. copying variables```</p>  
 
@@ -158,8 +184,19 @@ Notice that 'a' and a[:] are the same object, since tuple(a) creates a new tuple
 Hence the output.  
 
 ### <p align="center">```Problem 3: Implementing the Bell-shaped (Gaussian) function```</p>  
+```python
+#!/usr/bin/env python
 
-click [here](./problem3.py) for problem 3 code.  
+from math import pi, exp, sqrt
+
+mu=0
+sigma=2
+x=1
+
+y=1/sqrt(2*pi)/sigma*exp(-1/2*((x-mu)/sigma)**2)
+print(y)
+```
+click [here](./problem3.py) for the above problem 3 code.  
 
 ### <p align="center">```Problem 4: Branching, the Pythonic way```</p>  
 
@@ -195,5 +232,33 @@ if abbr == 'DSP':
 print('You answer is correct!' if answer_status=='correct' else "wrong buddy...try again")
 ```
 
+### <p align="center">```Problem 5: Branching, the Pythonic way```</p>  
+```python
+#!/usr/bin/env python
+
+def fib():
+        
+    def fibo(n_int):
+        if n_int==0 or n_int==1:
+            F=n_int
+        else:
+            F=fibo(n_int-1)+fibo(n_int-2)
+        return F
+    
+    n=input("Please enter a non-negative integer or type stop: ")
+ 
+    if n=='stop':
+        return
+    elif n.isdigit():
+        n_int=int(n)
+        print('fib(',n_int,') =',fibo(n_int))
+        fib()
+    else:
+        print("The input argument is not a non-negative integer!")
+        fib()
+        
+    return None
+```
+click [here](./problem5.py) for the above problem 4 code.  
 
 
