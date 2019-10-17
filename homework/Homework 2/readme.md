@@ -338,6 +338,9 @@ click [here](./problem6B.py) for the above problem 6B code.
   
 When we time fib( ) and fibLoop( ) for the same input integers 10, 15, 20, 25, 30 and 35, we found that fibLoop( ) is more efficient than fib( ). The reason is that fib() is calling getFib( ) multiple times so it takes more computation time.
 \newline
+\newline
+\newline
+\newline
 
 ### <p align="center">```Problem 7: Checking if an input is a prime number (via recursive function calls)```</p>  
 
