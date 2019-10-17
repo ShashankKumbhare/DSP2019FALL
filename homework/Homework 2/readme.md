@@ -213,6 +213,7 @@ if answer_status=='correct':
 else:
     print("wrong buddy...try again") 
 ```
+click [here](./problem4A.py) for the above problem 4A code.  
 
 ### <p align="center">```4.B```</p>
 ```python
@@ -231,6 +232,7 @@ if abbr == 'DSP':
 
 print('You answer is correct!' if answer_status=='correct' else "wrong buddy...try again")
 ```
+click [here](./problem4A.py) for the above problem 4C code.  
 
 ### <p align="center">```Problem 5: Branching, the Pythonic way```</p>  
 ```python
@@ -259,6 +261,6 @@ def fib():
         
     return None
 ```
-click [here](./problem5.py) for the above problem 4 code.  
+click [here](./problem5.py) for the above problem 5 code.  
 
 
