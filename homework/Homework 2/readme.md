@@ -370,3 +370,20 @@ def isPrime(n):
 click [here](./problem7.py) for the above problem7.py file.
 
 
+### <p align="center">```Problem 9: Computing the area of a triangle```</p>  
+
+```python
+#!/usr/bin/env python
+
+def  getTriangleArea(a):
+
+    area=1/2*abs(a[1][0]*a[2][1]-a[2][0]*a[1][1]-a[0][0]*a[2][1]+a[2][0]*a[0][1]+a[0][0]*a[1][1]-a[1][0]*a[0][1])
+        
+    return area
+```
+click [here](./problem9.py) for the above problem9.py file.
+
+
+
+
+
