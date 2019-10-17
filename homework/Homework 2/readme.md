@@ -30,6 +30,7 @@ MANIPULATION!""")
 ```	
 click [here](./problem1.py) for the above problem 1 code.  
 	
+	
 ### <p align="center">```Problem 2: Python aliasing vs. copying variables```</p>  
 
 
@@ -183,6 +184,7 @@ b = a[:] : This also creates a new pointer 'b' which points towards a tuple-obje
 Notice that 'a' and a[:] are the same object, since tuple(a) creates a new tuple-object.  
 Hence the output.  
 
+
 ### <p align="center">```Problem 3: Implementing the Bell-shaped (Gaussian) function```</p>  
 ```python
 #!/usr/bin/env python
@@ -197,6 +199,7 @@ y=1/sqrt(2*pi)/sigma*exp(-1/2*((x-mu)/sigma)**2)
 print(y)
 ```
 click [here](./problem3.py) for the above problem 3 code.  
+
 
 ### <p align="center">```Problem 4: Branching, the Pythonic way```</p>  
 
@@ -235,6 +238,7 @@ print('You answer is correct!' if answer_status=='correct' else "wrong buddy...t
 ```
 click [here](./problem4A.py) for the above problem 4C code.  
 
+
 ### <p align="center">```Problem 5: Branching, the Pythonic way```</p>  
 ```python
 #!/usr/bin/env python
@@ -263,6 +267,7 @@ def fib():
     return None
 ```
 click [here](./problem5.py) for the above problem 5 code.  
+
 
 ### <p align="center">```Problem 6: Computing the Fibonacci sequence via for-loop```</p>  
 
@@ -337,16 +342,6 @@ click [here](./problem6B.py) for the above problem 6B code.
 ### <p align="center">```6.C```</p>
   
 When we time fib( ) and fibLoop( ) for the same input integers 10, 15, 20, 25, 30 and 35, we found that fibLoop( ) is more efficient than fib( ). The reason is that fib() is calling getFib( ) multiple times so it takes more computation time.
-\newline
-\newline
-\newline
-\newline
-\n
-\n
-\n
-\n
-\n
-\n
 
 
 ### <p align="center">```Problem 7: Checking if an input is a prime number (via recursive function calls)```</p>  
