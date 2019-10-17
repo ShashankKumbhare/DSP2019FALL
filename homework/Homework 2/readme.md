@@ -409,7 +409,7 @@ print("The sum of {} is {}".format( " ".join(sys.argv[1:]), sum(float(e) for e i
 ```
 click [here](./problem11.py) for the above problem11.py file.
 
-### <p align="center">```Problem 12: Command line input arguments summation via eval( ) ```</p>  
+### <p align="center">```Problem 12: Command line input arguments summation via eval( )```</p>  
 
 ```python
 #!/usr/bin/env python
@@ -420,14 +420,51 @@ print("The sum of {} is {}".format( " ".join(sys.argv[1:]) , eval("+".join(sys.a
 ```
 click [here](./problem12.py) for the above problem12.py file.
 
+### <p align="center">```Problem 13: Impact of machine precision on numerical computation```</p>  
 
-
-
-
-
-
-
-
+```python
+eps = 1.0
+while 1.0 != 1.0 + eps:
+    print ('...............', eps)
+    eps /= 5.0
+print ('final eps:', eps)
+```
+```
+............... 1.0
+............... 0.2
+............... 0.04
+............... 0.008
+............... 0.0016
+............... 0.00032
+............... 6.400000000000001e-05
+............... 1.2800000000000003e-05
+............... 2.5600000000000005e-06
+............... 5.120000000000001e-07
+............... 1.0240000000000003e-07
+............... 2.0480000000000005e-08
+............... 4.096000000000001e-09
+............... 8.192000000000001e-10
+............... 1.6384000000000003e-10
+............... 3.2768e-11
+............... 6.553600000000001e-12
+............... 1.31072e-12
+............... 2.62144e-13
+............... 5.2428800000000005e-14
+............... 1.0485760000000001e-14
+............... 2.0971520000000002e-15
+............... 4.194304e-16
+final eps: 8.388608000000001e-17
+```
+"1.0 != 1.0 + eps" will be False when "eps" becomes less than "Machine epsilon".  
+Machine epsilon is the maximum relative error of the floating point arithmetic. Mathematically, for each floating point type, it is equivalent to the difference between 1.0 and the smallest representable value that is greater than 1.0.
+```python
+import numpy as np
+print(np.finfo(float).eps)
+```
+```
+2.220446049250313e-16
+```
+You can see the final eps: 8.388608000000001e-17 is less than 2.220446049250313e-16 (Machine epsilon). 
 
 
 
