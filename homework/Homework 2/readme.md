@@ -341,6 +341,13 @@ When we time fib( ) and fibLoop( ) for the same input integers 10, 15, 20, 25, 3
 \newline
 \newline
 \newline
+\n
+\n
+\n
+\n
+\n
+\n
+
 
 ### <p align="center">```Problem 7: Checking if an input is a prime number (via recursive function calls)```</p>  
 
