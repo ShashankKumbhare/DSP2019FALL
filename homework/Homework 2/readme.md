@@ -263,4 +263,6 @@ def fib():
 ```
 click [here](./problem5.py) for the above problem 5 code.  
 
+### <p align="center">```Problem 6: Computing the Fibonacci sequence via for-loop```</p>  
+
 
