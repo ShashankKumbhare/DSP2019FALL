@@ -241,11 +241,11 @@ click [here](./problem4A.py) for the above problem 4C code.
 
 def fib():
         
-    def fibo(n_int):
+    def getFib(n_int):
         if n_int==0 or n_int==1:
             F=n_int
         else:
-            F=fibo(n_int-1)+fibo(n_int-2)
+            F=getFib(n_int-1)+getFib(n_int-2)
         return F
     
     n=input("Please enter a non-negative integer or type stop: ")
@@ -254,7 +254,7 @@ def fib():
         return
     elif n.isdigit():
         n_int=int(n)
-        print('fib(',n_int,') =',fibo(n_int))
+        print('fib(',n_int,') =',getFib(n_int))
         fib()
     else:
         print("The input argument is not a non-negative integer!")
@@ -265,5 +265,7 @@ def fib():
 click [here](./problem5.py) for the above problem 5 code.  
 
 ### <p align="center">```Problem 6: Computing the Fibonacci sequence via for-loop```</p>  
+
+
 
 

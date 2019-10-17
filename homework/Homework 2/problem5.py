@@ -2,11 +2,11 @@
 
 def fib():
         
-    def fibo(n_int):
+    def getFib(n_int):
         if n_int==0 or n_int==1:
             F=n_int
         else:
-            F=fibo(n_int-1)+fibo(n_int-2)
+            F=getFib(n_int-1)+getFib(n_int-2)
         return F
     
     n=input("Please enter a non-negative integer or type stop: ")
@@ -15,7 +15,7 @@ def fib():
         return
     elif n.isdigit():
         n_int=int(n)
-        print('fib(',n_int,') =',fibo(n_int))
+        print('fib(',n_int,') =',getFib(n_int))
         fib()
     else:
         print("The input argument is not a non-negative integer!")
