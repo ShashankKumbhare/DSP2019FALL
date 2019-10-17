@@ -341,6 +341,8 @@ When we time fib( ) and fibLoop( ) for the same input integers 10, 15, 20, 25, 3
 ### <p align="center">```Problem 7: Checking if an input is a prime number (via recursive function calls)```</p>  
 
 ```python
+#!/usr/bin/env python
+
 def isPrime(n):
     
     def modulus(n,x):
