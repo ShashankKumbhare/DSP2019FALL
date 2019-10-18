@@ -466,5 +466,42 @@ print(np.finfo(float).eps)
 ```
 You can see the final eps: 8.388608000000001e-17 is less than 2.220446049250313e-16 (Machine epsilon). 
 
+### <p align="center">```Problem 14: Integer overflow```</p>  
 
+```python
+import numpy as np
+np.iinfo(np.int16)
+```
+```
+iinfo(min=-32768, max=32767, dtype=int16)
+```
 
+```python
+import numpy as np
+np.iinfo(np.int32)
+```
+```
+iinfo(min=-2147483648, max=2147483647, dtype=int32)
+```
+
+If we type cast a integer larger than the max int8 no. (127), then the higher integers will start from the smallest int8 no. (-128).    
+```python
+import numpy as np
+#The max limit for int8 is 127
+L=[127,128,129,130,200]
+print(np.int8(L))
+```
+```
+[ 127 -128 -127 -126  -56]
+```
+
+If we type cast a integer smaller than the min int8 no. (-128), then the smaller integers will start from the largest int8 no. (127).    
+```python
+import numpy as np
+#The min limit for int8 is -128
+L=[-128,-129,-130,-131,-201]
+print(np.int8(L))
+```
+```
+[-128  127  126  125   55]
+```
