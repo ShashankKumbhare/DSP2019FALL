@@ -534,3 +534,4 @@ We see the strange behaviour because everytime ```del number[i]``` is executed, 
 
 
 
+
