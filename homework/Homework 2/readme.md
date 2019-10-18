@@ -484,7 +484,7 @@ np.iinfo(np.int32)
 iinfo(min=-2147483648, max=2147483647, dtype=int32)
 ```
 
-If we type cast a integer larger than the max int8 no. (127), then the higher integers will start from the smallest int8 no. (-128).    
+If we type cast a integer larger than the max int8 no. (127), then the next integers will start from the smallest int8 no. (-128).    
 ```python
 import numpy as np
 #The max limit for int8 is 127
@@ -495,7 +495,7 @@ print(np.int8(L))
 [ 127 -128 -127 -126  -56]
 ```
 
-If we type cast a integer smaller than the min int8 no. (-128), then the smaller integers will start from the largest int8 no. (127).    
+If we type cast a integer smaller than the min int8 no. (-128), then the next integers will start from the largest int8 no. (127).    
 ```python
 import numpy as np
 #The min limit for int8 is -128
