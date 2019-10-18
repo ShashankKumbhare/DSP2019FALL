@@ -531,7 +531,10 @@ n=8, del 3 [0, 1, 2, 8, 9]
 ```
 We see the strange behaviour because everytime ```del number[i]``` is executed, the i<sup>th</sup> element of list "numbers" is removed and length of the list and the index no.s of list elemests are changing correspondingly.  
 
-
+```bash
+$ git branch -d test
+error: Cannot delete branch 'test' checked out at 'C:/Users/Amir/git/foo'
+```
 
 
 
