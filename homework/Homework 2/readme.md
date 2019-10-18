@@ -516,7 +516,7 @@ print(numbers)
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
-```python
+```python hl_lines="1 3"
 for n in numbers:
     i = len(numbers)//2
     del numbers[i]
