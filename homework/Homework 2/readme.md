@@ -505,3 +505,31 @@ print(np.int8(L))
 ```
 [-128  127  126  125   55]
 ```
+
+### <p align="center">```Problem 15: ```</p>  
+
+```python
+numbers = list(range(10))
+print(numbers)
+```
+```
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+
+```python
+for n in numbers:
+    i = len(numbers)//2
+    del numbers[i]
+    print ('n={}, del {}'.format(n,i), numbers)
+```
+```
+n=0, del 5 [0, 1, 2, 3, 4, 6, 7, 8, 9]
+n=1, del 4 [0, 1, 2, 3, 6, 7, 8, 9]
+n=2, del 4 [0, 1, 2, 3, 7, 8, 9]
+n=3, del 3 [0, 1, 2, 7, 8, 9]
+n=8, del 3 [0, 1, 2, 8, 9]
+```
+
+
+
+
