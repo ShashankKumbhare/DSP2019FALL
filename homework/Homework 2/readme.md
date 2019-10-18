@@ -506,7 +506,7 @@ print(np.int8(L))
 [-128  127  126  125   55]
 ```
 
-### <p align="center">```Problem 15: ```</p>  
+### <p align="center">```Problem 15: Modifying the index of a for-loop```</p>  
 
 ```python
 numbers = list(range(10))
