@@ -13,9 +13,9 @@
 	
 5. 
 
-def getSum(n):
-    if n==0:
-        return 0
-    else:
-        sum=n+getSum(n-1);
-    return sum
+	def getSum(n):  
+		if n==0:  
+			return 0  
+ 		else:  
+			sum=n+getSum(n-1);  
+		return sum  
