@@ -33,7 +33,8 @@ click [here](./problem1.py) for the above problem1.py file.
 	
 ### <p align="center">```Problem 2: Python aliasing vs. copying variables```</p>  
 
-
+click [here](https://realpython.com/pointers-in-python/) for the detailed information about pointers in python.  
+  
 consider, a = 5  
 1.	Objects are numbers/values. In this case, '5' is an object.  
 	Different objects have different location/address/id)
